@@ -1,0 +1,245 @@
+
+@media only screen and (min-width: 1600px) {
+	.slider-cont__slider:before {
+	display: block;
+	}
+	.slider-cont__slider:after {
+	display: block;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.header-top {
+	}
+	.header-top__logo {
+		width: 154px;
+		top: 70px;
+		left: 11px;
+	}
+	.nav__ul {
+		float: left;
+		margin: 143px 0 71px -8px;
+	}
+	.nav__li {
+		margin-right: 40px;
+	}
+	/* SLIDER */
+	.slider-cont__slider:before {
+	display: block;
+	left: 0;
+	}
+	.slider-cont__slider:after {
+	display: block;
+	right: 0;
+	}
+	.slider-cont {
+    margin-bottom: 154px;
+	}
+	.slider-cont__h1 {
+		font-size: 3em;
+    	letter-spacing: -0.4px;
+    	padding: 98px 0 0 4.5%;
+	}
+	.slider-cont__h2 {
+		display: none;
+	}
+	.slider-cont__h2-768 {
+		display: block;
+	}
+	.slider-cont__p {
+		display: none;
+	}
+	.slider-cont__p-768 {
+		display: block;
+    	padding: 6px 0 111px 4.5%;
+    	color: white;
+    	font-family: 'Open Sans', sans-serif;
+    	font-weight: 300;
+    	line-height: 26px;
+    	font-size: 17px;
+    	width: 37.5%;
+    	letter-spacing: -0.5px;
+    	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	}
+	.slider-cont__iphone {
+    top: -23px;
+    right: 5.25%;
+	}
+	.slider-cont__switcher {
+    bottom: -54px;
+    right: 130px;
+}
+}
+
+@media only screen and (max-width: 642px) {
+	.nav__ul {
+		width: 460px;
+	}
+	.nav__li {
+		margin-right: 4px;
+	}
+	.nav__ul {
+		float: left;
+		margin: 143px 0 71px 0;
+	}
+	.slider-cont__h1 {
+		font-size: 2em;
+    	letter-spacing: -0.4px;
+    	padding: 98px 0 0 7.5%;
+	}
+	.slider-cont__h2-768 {
+		margin: 9px 0 0 8%;
+		font-size: 1em;
+		display: block;
+	}
+	.slider-cont__p-768 {
+    	padding: 6px 0 111px 7.5%;
+    	line-height: 16px;
+    	font-size: 0.5em;
+    	width: 37.5%;
+	}
+	.slider-cont__iphone {
+    max-width: 190px;
+    width: 100%;
+    top: 29px;
+    right: 7.25%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.header-top__logo {
+		position: static;
+    	margin: 0 auto;
+    	padding: 70px 0 85px 0px;
+	}
+	.nav__ul {
+		display: none;
+	}
+	.nav__ul-480 {
+		overflow: hidden;
+		position: absolute;
+		z-index: 10;
+		top: 131px;
+		right: 23.3%;
+		display: block;
+		max-width: 244px;
+		width: 100%;
+		border: 1px solid rgba(5, 17, 22, 0.9);
+		border-radius: 7px;
+		background-color: rgba(54, 41, 62, 0.9);
+	}
+	.nav__li-480 {
+		padding: 7px 0 9px 0;
+		text-align: center;
+		border-top: 1px solid rgba(105, 82, 114, 0.9);
+		border-bottom: 1px solid rgba(53, 39, 61, 0.9);
+	}
+	.nav__li-480-active {
+		background: url(../img/nav__li-480-active.png) repeat-x 0 bottom, rgba(0, 0, 0, 0.3);
+	}
+	.nav__li-480:first-child {
+		padding: 12px 0 9px 0;
+	}
+	.nav__li-480-active {
+
+	}
+	.nav__li-480:last-child {
+		border-bottom: none;
+	}
+	.nav__item-480 {
+		color: white;
+		font-size: 24px;
+		text-decoration: none;
+		padding: 0 6px 4px 6px;
+	}
+	.nav__item-480:hover {
+		padding: 0 6px 2px 6px;
+		border-bottom: 2px solid #edbfff;
+	}
+	.slider-cont__iphone {
+    	max-width: 192px;
+    	width: 100%;
+    	top: -9px;
+    	right: 4.7%;
+	}
+	.slider-cont__h1 {
+		font-size: 2.2em;
+    	letter-spacing: 0;
+    	padding: 94px 0 0 7%;
+	}
+	.slider-cont__h2-768 {
+		margin: 3px 0 0 6.9%;
+		padding-bottom: 96px;
+    	font-size: 1.15em;
+   		letter-spacing: -0.15px;
+	}
+	.slider-cont__p-768 {
+		display: none;
+	}
+	.slider-cont__slider:before {
+		top: 42%;
+	}
+	.slider-cont__slider:after {
+		top: 42%;
+	}
+	.slider-cont__switcher {
+    bottom: -39px;
+    right: 180px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.nav__ul-480 {
+		right: 10%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.slider-cont {
+    	margin-bottom: 107px;
+	}
+	.header-top__logo {
+    	padding: 69px 0 27px 0px;
+	}
+	.nav__ul-480 {
+		display: none;
+	}
+	.nav__item-320 {
+		width: 39px;
+		margin: 0 auto;
+		display: block;
+		color: white;
+		font-size: 24px;
+		text-decoration: none;
+		padding: 0 6px 4px 6px;
+	}
+	.nav__item-320:hover {
+		padding: 0 6px 2px 6px;
+		border-bottom: 2px solid #edbfff;
+	}
+	.slider-cont {
+		background: none;
+	}
+	.slider-cont__iphone {
+		display: none;
+	}
+	.slider-cont__h1 {
+    	padding: 124px 0 0 18.3%;
+	}
+	.slider-cont__h2-768 {
+		margin: 3px 0 0 17.9%;
+    	padding-bottom: 56px;
+   		letter-spacing: -0.1px;
+	}
+	.slider-cont__switcher {
+    right: 102px;
+	}
+	.slider-cont__slider:before {
+		top: 56%;
+	}
+	.slider-cont__slider:after {
+		top: 56%;
+	}
+}
